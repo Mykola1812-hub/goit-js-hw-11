@@ -97,3 +97,15 @@ button:hover {
   align-items: center;
   margin-bottom: 0;
 }
+
+.loader {
+  display: none;
+  margin-top: 16px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.loader.visible {
+  display: block;
+}

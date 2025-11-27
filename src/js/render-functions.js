@@ -59,9 +59,11 @@ export function clearGallery() {
 }
 
 export function showLoader() {
-  loaderEl.classList.remove('hidden');
+  loaderEl.textContent = 'Loading images, please wait...';
+  loaderEl.classList.add('visible');
 }
 
 export function hideLoader() {
-  loaderEl.classList.add('hidden');
+  loaderEl.classList.remove('visible');
+  loaderEl.textContent = '';
 }
