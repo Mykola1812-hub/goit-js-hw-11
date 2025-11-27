@@ -57,7 +57,7 @@ function onFormSubmit(event) {
         title: 'Error',
         message: 'Something went wrong. Please try again later.',
         position: 'topRight',
-        maxWidth: 10,
+        maxWidth: 432,
       });
 
       console.error(error);
